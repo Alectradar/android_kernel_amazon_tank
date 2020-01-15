@@ -40,7 +40,7 @@
 
 #ifdef CONFIG_TRAPZ_TP
 #ifdef __KERNEL__
-#include <generated/trapz_generated_kernel.h>
+#include <linux/trapz_generated_kernel.h>
 #else
 #include <linux/trapz_generated.h>
 #endif /* __KERNEL__ */
