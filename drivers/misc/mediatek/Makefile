@@ -160,7 +160,7 @@ obj-$(CONFIG_MTK_CONN_MD)	+= conn_md/
 
 obj-y	+=  ccci_util/
 obj-$(CONFIG_MTK_CCCI_DRIVER)  +=  ccci/
-obj-$(CONFIG_MTK_CCCI_EXT)     +=  dual_ccci/
+#obj-$(CONFIG_MTK_CCCI_EXT)     +=  dual_ccci/
 obj-$(CONFIG_MTK_ECCCI_DRIVER) +=  eccci/
 obj-$(CONFIG_MTK_EEMCS_DRIVER) +=  eemcs/
 obj-$(CONFIG_MTK_NFC) += nfc/
@@ -261,7 +261,7 @@ obj-y	+= selinux_warning/
 # MTK PASR SW flow
 obj-$(CONFIG_MTKPASR)	+= mtkpasr/
 
-obj-$(CONFIG_MTK_TC1_FEATURE)	+= tc1_interface/
+#obj-$(CONFIG_MTK_TC1_FEATURE)	+= tc1_interface/
 
 obj-$(CONFIG_MTK_SWITCH_TX_POWER) += sw_tx_power/
 
@@ -273,7 +273,7 @@ obj-$(CONFIG_MTK_SWITCH_TX_POWER) += sw_tx_power/
 obj-$(CONFIG_MTK_BTIF)	+= btif/
 obj-$(CONFIG_MTK_POWER_GS)	+= power_gs/
 obj-$(CONFIG_MTK_VIDEO) += video/
-obj-$(CONFIG_MTK_AEE_MRDUMP)	+= mrdump/
+#obj-$(CONFIG_MTK_AEE_MRDUMP)	+= mrdump/
 obj-$(CONFIG_MTK_WMT_CCCI)	+= wmt_ccci/
 obj-$(CONFIG_MTK_VCOREFS)	+= vcorefs/
 
@@ -284,7 +284,7 @@ obj-$(CONFIG_MTK_SCHED_CMP_POWER_AWARE_CONTROLLER)	+=  pa/
 obj-$(CONFIG_HMP_POWER_AWARE_CONTROLLER)	+=  pa_hmp/
 
 #widevine drm
-$(warning "CONFIG_TRUSTONIC_TEE_SUPPORT = $(CONFIG_TRUSTONIC_TEE_SUPPORT)")
+#$(warning "CONFIG_TRUSTONIC_TEE_SUPPORT = $(CONFIG_TRUSTONIC_TEE_SUPPORT)")
 obj-$(CONFIG_TRUSTONIC_TEE_SUPPORT) += secwidevine/
 
 obj-$(CONFIG_MTK_IN_HOUSE_TEE_SUPPORT) += trustzone/

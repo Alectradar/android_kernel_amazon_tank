@@ -3,7 +3,7 @@ ifneq ($(MTK_ROOT_BUILD),)
 $(warning "MTK_ROOT_BUILD secwidevine")
 include $(MTK_ROOT_BUILD)/Makefile
 else
-$(warning "custom build secwidevine")
+#$(warning "custom build secwidevine")
 include $(srctree)/drivers/misc/mediatek/Makefile.custom
 endif
 
